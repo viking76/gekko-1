@@ -104,7 +104,7 @@ method.check = function() {
 
 		if(this.trend.persisted && !this.trend.adviced) {
 			this.trend.adviced = true;
-			this.advice('long');
+			this.advice('short');
 		} else
 			this.advice();
 

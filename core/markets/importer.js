@@ -111,7 +111,7 @@ Market.prototype.processTrades = function(trades) {
     process.send({event: 'marketUpdate', payload: lastAt});
   }
 
-  setTimeout(this.get, 1000);
+  setTimeout(this.get, 50);
 }
 
 module.exports = Market;
