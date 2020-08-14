@@ -80,7 +80,7 @@ method.check = function() {
 
 		if(this.trend.persisted && !this.trend.adviced) {
 			this.trend.adviced = true;
-			this.advice('short');
+			this.advice('long');
 		} else
 			this.advice();
 
