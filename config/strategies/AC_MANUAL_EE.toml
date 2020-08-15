@@ -1,0 +1,4 @@
+# Entry and exit
+ENTRY = 10000
+EXIT = 12000
+STOP_LOSS = 9000
